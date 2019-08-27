@@ -106,8 +106,6 @@ end
 
 function eventNewGame()
 	t = 0
-	print(mapNo)
-	print(#maps)
 	if mapNo == #maps + 1 then
 		playback = false
 	end
